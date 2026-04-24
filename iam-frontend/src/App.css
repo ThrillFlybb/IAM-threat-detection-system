@@ -1,0 +1,257 @@
+/* DEFAULT (DARK) */
+:root {
+  --bg: #0f1115;
+  --text: #e5e7eb;
+  --card: #1a1d23;
+}
+
+/* LIGHT MODE */
+[data-theme="light"] {
+  --bg: #f4f6f9;
+  --text: #1f2937;
+  --card: #ffffff;
+}
+/* GLOBAL FIX */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f1115;
+  color: #e5e7eb;
+  overflow-x: hidden;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 40px;
+  background: #111827;
+  border-bottom: 1px solid #2a2f38;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.theme-btn {
+  background: #2563eb;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  padding: 30px 40px;
+}
+
+/* TEXT */
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.guide {
+  font-size: 1rem;
+  color: #9ca3af;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.logout-btn {
+  padding: 12px 18px;
+  background: #dc2626;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+/* STATS */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.stat-card b {
+  font-size: 2rem;
+}
+
+.total { background: #374151; }
+.high { background: #dc2626; }
+.medium { background: #f59e0b; }
+
+/* GRID */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/* THREATS */
+.threat-card {
+  padding: 18px;
+  margin-top: 12px;
+  border-left: 5px solid #dc2626;
+  background: #1a1d23;
+  border-radius: 8px;
+}
+
+.threat-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.threat-detail {
+  font-size: 1rem;
+}
+
+.threat-time {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+/* TAG */
+.tag {
+  margin-left: 10px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  color: white;
+}
+
+.high { background: #dc2626; }
+.medium { background: #f59e0b; }
+
+/* SCROLL */
+.activity-box {
+  max-height: 500px;
+  overflow-y: auto;
+}
+/* =========================
+   FORCE BIG AUTH UI 🔥
+========================= */
+
+/* GLOBAL SCALE */
+html {
+  font-size: 24px !important;
+}
+
+/* CENTER */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+/* CARD */
+.auth-card {
+  width: 650px !important;
+  padding: 50px !important;
+  background: #1a1d23;
+  border-radius: 12px;
+}
+
+/* TITLE */
+.auth-card h2 {
+  font-size: 2rem !important;
+  margin-bottom: 10px;
+}
+
+/* INPUT */
+.auth-card input {
+  width: 100%;
+  padding: 18px !important;
+  font-size: 1.2rem !important;
+  margin: 12px 0;
+  border-radius: 6px;
+  border: 1px solid #333;
+}
+
+/* BUTTON */
+.login-btn,
+.register-btn {
+  width: 100%;
+  padding: 18px !important;
+  font-size: 1.2rem !important;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+/* COLORS */
+.login-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.register-btn {
+  background: #16a34a;
+  color: white;
+}
+
+/* LINK */
+.link {
+  color: #3b82f6;
+  cursor: pointer;
+  font-weight: 600;
+}
+.admin-container {
+  padding: 40px;
+}
+
+.admin-title {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.admin-card {
+  background: #1e293b;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+.admin-name {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.unlock-btn {
+  margin-top: 15px;
+  padding: 18px 30px;
+  font-size: 1.2rem;
+  background: #22c55e;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.unlock-btn:hover {
+  background: #16a34a;
+}
