@@ -173,11 +173,11 @@ cd iam-frontend
 npm install
 npm start
 
-### NOTE:-
+##  Note
+
 Project is currently under improvement.
 
-Working on:
-
-fixing minor UI bugs
-improving responsiveness
-handling edge cases
+###  Working on:
+- Fixing minor UI bugs  
+- Improving responsiveness  
+- Handling edge cases  
