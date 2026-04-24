@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #  IAM Threat Detection System
 
 ##  Key Idea
